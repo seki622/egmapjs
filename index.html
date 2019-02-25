@@ -15,8 +15,8 @@
 window.onload = function() {
 	var map = initMap('mapid')
 	map.setZoom()
-	map.panTo([ 36.6444757,　138.1886261, ]) // 長野駅
-	map.addIcon(36.6444757,　138.1886261, " 長野駅")
+	map.panTo([ 36.6444757,　138.1886261 ]) // 長野駅
+	map.addIcon(36.6444757,　138.1886261, "長野駅")
 	map.addIcon(36.6444757, 138.1886261,  "Hana道場" ,  "icon/megane.png",128)
 	map.on("click" ,  (e) => alert(e.latlng))
 }
